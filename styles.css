@@ -14,6 +14,14 @@ body {
     list-style-type: none; 
 }
 
+.nav-list a {
+    text-decoration: none; 
+}
+
+.nav-list a:hover{
+    text-decoration: underline white; 
+}
+
 li {
     color: white; 
     margin-right: 30px; 
@@ -24,7 +32,7 @@ li {
 
 .slider-container {
     margin: 0 auto; 
-    width: 1380px;
+    max-width: 1380px;
     margin-top: 30px;  
 }
 
@@ -35,6 +43,10 @@ li {
     align-items: center; 
 }
 
+.slide:focus {
+    outline: none; 
+}
+
 .first-text {
     display: flex; 
     flex-direction: column; 
@@ -42,16 +54,8 @@ li {
     align-items: center; 
 }
 
-.first {
+.slide {
     background-color: black; 
-}
-
-.second {
-    background-color: red; 
-}
-
-.third {
-    background-color: blue; 
 }
 
 .first-main-text {
@@ -68,7 +72,15 @@ li {
     text-align: center; 
     color: white; 
     font-family: 'Open Sans', sans-serif;
-    width: 753px; 
+    max-width: 753px; 
+}
+
+.second-main-text, .third-main-text {
+    font-size: 80px;
+    line-height: 95px;
+    text-align: center; 
+    color: white;
+    font-family: 'Playfair Display', serif; 
 }
 
 .see-work-button {
@@ -89,4 +101,49 @@ li {
 .see-work-button:hover {
     background: #c2a729; 
     cursor: pointer; 
+}
+
+
+.slick-dots li button:before, 
+.slick-dots li button:focus{
+    color: white; 
+    font-size: 18px; 
+}
+
+.slick-dots li button:hover:before,
+.slick-dots li button:focus:before{
+    color: white; 
+}
+
+.slick-dots li.slick-active button:before{
+    color: white; 
+}
+
+
+.arrow{
+    position: absolute;
+    top: 50%;
+    margin-top: -15px;
+    width: 0;
+    height: 0;
+    border: none; 
+    color: white; 
+    background-color: black; 
+    font-size: 40px; 
+}
+
+.prev-arrow{
+    left: -40px;
+}
+
+.next-arrow{
+    right: -40px;
+}
+
+.arrow:hover {
+    cursor: pointer; 
+}
+
+.arrow:focus {
+    outline: none; 
 }
