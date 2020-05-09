@@ -1,0 +1,72 @@
+body {
+    background-color: black; 
+    margin: 0; 
+}
+
+.nav-container {
+    display: flex; 
+    justify-content: space-around; 
+    padding: 10px; 
+}
+
+.nav-list {
+    display: flex; 
+    list-style-type: none; 
+}
+
+li {
+    color: white; 
+    margin-right: 30px; 
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.slider-container {
+    margin: 0 auto; 
+    width: 1380px; 
+}
+
+.slide { 
+    height: 619px; 
+}
+
+.first {
+    background-color: black; 
+}
+
+.second {
+    background-color: red; 
+}
+
+.third {
+    background-color: blue; 
+}
+
+.first-main-text {
+    font-size: 80px;
+    line-height: 95px;
+    text-align: center; 
+    color: white; 
+}
+
+.first-secondary-text {
+    font-size: 30px;
+    line-height: 48px;
+    text-align: center; 
+    color: white; 
+}
+
+.see-work-button {
+    width: 184px;
+    height: 57px;
+    background: #EECD31;
+    border-radius: 25px;
+    border: none; 
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    text-transform: uppercase; 
+    color: #FFFFFF;
+
+}
+
