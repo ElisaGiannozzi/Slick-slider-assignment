@@ -19,15 +19,27 @@ li {
     margin-right: 30px; 
     font-size: 14px;
     line-height: 19px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .slider-container {
     margin: 0 auto; 
-    width: 1380px; 
+    width: 1380px;
+    margin-top: 30px;  
 }
 
 .slide { 
-    height: 619px; 
+    height: 600px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.first-text {
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
 }
 
 .first {
@@ -46,7 +58,8 @@ li {
     font-size: 80px;
     line-height: 95px;
     text-align: center; 
-    color: white; 
+    color: white;
+    font-family: 'Playfair Display', serif; 
 }
 
 .first-secondary-text {
@@ -54,6 +67,8 @@ li {
     line-height: 48px;
     text-align: center; 
     color: white; 
+    font-family: 'Open Sans', sans-serif;
+    width: 753px; 
 }
 
 .see-work-button {
@@ -67,6 +82,11 @@ li {
     text-align: center;
     text-transform: uppercase; 
     color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
 
 }
 
+.see-work-button:hover {
+    background: #c2a729; 
+    cursor: pointer; 
+}
